@@ -1,5 +1,8 @@
 {
-  "name": "Valera-Filimonov/example-lib-react-component-for-sirius",
+  "name": "lib_component",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Valera-Filimonov"
+  },
   "version": "0.1.0",
   "description": "example lib react component for sirius",
   "scripts": {
