@@ -1,0 +1,26 @@
+.button__wrapper {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 35px;
+    background-color: rgb(96, 93, 199);
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+    &:hover, &:focus {
+        background-color: gray;
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        background-color: #ff5733;
+        transition: background-color 0.3s;
+    }
+}
